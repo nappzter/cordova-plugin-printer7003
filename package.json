@@ -1,0 +1,16 @@
+{
+  "name": "printer7003",
+  "version": "1.0.0",
+  "description": "HRET 7003 printer plugin for Cordova",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "printer",
+    "7003",
+    "HRET"
+  ],
+  "author": "4PAY INC",
+  "license": "ISC"
+}

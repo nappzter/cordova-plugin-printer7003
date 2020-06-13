@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-printer7003" version="1.0.0">
+   
+   <name>printer7003</name>
+
+   <js-module name="printer7003" src="www/printer7003.js">
+      <clobbers target="printer7003" />
+   </js-module>
+
+   <platform name="android">
+      <config-file parent="/*" target="res/xml/config.xml">
+         <feature name="printer7003">
+            <param name="android-package" value="cordova.plugin.printer7003.printer7003" />
+         </feature>
+      </config-file>
+      <config-file parent="/*" target="AndroidManifest.xml" />
+      <source-file src="src/android/printer7003.java" target-dir="src/cordova/plugin/printer7003/printer7003" />
+      <source-file src="src/android/libprinter7003.so" target-dir="libs/armeabi/" />
+      <source-file src="src/android/printer7003.jar" target-dir="libs/" />
+   </platform>
+</plugin>
