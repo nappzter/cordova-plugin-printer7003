@@ -32,7 +32,7 @@ The following functions are available for printer 7003
 <i>printer.close()</i>
 
 ### Print String
-<i>printer.printStirng('content string')</i>
+<i>printer.printString()</i>
 
 #### usage:
 printer.printStirng(“hello,the world”);
