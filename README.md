@@ -29,7 +29,7 @@ The following functions are available for printer 7003
 <i>printer.open()</i>
 
 #### usage:
-printer.printStirng(“hello,the world”);
+printer.printString(“Hello World”);
 
 ### Close Printer
 <i>printer.close()</i>
