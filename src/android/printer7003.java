@@ -1,4 +1,4 @@
-package cordova-plugin-printer7003;
+package cordova.plugin.printer7003;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -47,12 +47,12 @@ public class printer7003 extends CordovaPlugin {
         if(args != null)
         {
                 try{
-                    int p1 = Integer.parseInt(arg.getJSONObject(0).getString("param1"));
-                    int p2 = Integer.parseInt(arg.getJSONObject(0).getString("param2"));
+                    int p1 = Integer.parseInt(args.getJSONObject(0).getString("param1"));
+                    int p2 = Integer.parseInt(args.getJSONObject(0).getString("param2"));
 
                     callback.success(""+ (p1+p2));
 
-                }catch(Execption ex)
+                }catch(Exception ex)
                 {
                       callback.error("Could not print " + ex);  
                 }
@@ -67,12 +67,12 @@ public class printer7003 extends CordovaPlugin {
         if(args != null)
         {
                 try{
-                    int p1 = Integer.parseInt(arg.getJSONObject(0).getString("param1"));
-                    int p2 = Integer.parseInt(arg.getJSONObject(0).getString("param2"));
+                    int p1 = Integer.parseInt(args.getJSONObject(0).getString("param1"));
+                    int p2 = Integer.parseInt(args.getJSONObject(0).getString("param2"));
 
                     callback.success(""+ (p1-p2));
 
-                }catch(Execption ex)
+                }catch(Exception ex)
                 {
                       callback.error("Could not quit print " + ex);  
                 }

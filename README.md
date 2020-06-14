@@ -6,7 +6,8 @@ This is a cordova plugin to wrap the Printer 7003 .jar and .so libraries. The in
 
 Plugin will be installed into cordova (android) app directory structure under the following folders:
 
-- /libs/armeabi/libprinter7003.so
+- /libs/armeabi/libprinter7003.so (NDK 5 or older)
+- /libs/armeabi-v7a/libprinter7003.so (NDK 6+)
 - /libs/printer7003.jar
 
 ## Prerequisite

@@ -15,7 +15,7 @@
       </config-file>
       <config-file parent="/*" target="AndroidManifest.xml" />
       <source-file src="src/android/printer7003.java" target-dir="src/cordova/plugin/printer7003/printer7003" />
-      <source-file src="src/android/libprinter7003.so" target-dir="libs/armeabi/" />
+      <source-file src="src/android/libprinter7003.so" target-dir="libs/armeabi-v7a/" />
       <source-file src="src/android/printer7003.jar" target-dir="libs/" />
    </platform>
 </plugin>
