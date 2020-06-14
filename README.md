@@ -16,10 +16,49 @@ Plugin will be installed into cordova (android) app directory structure under th
 ## How to install
 1. Open Cordova project at CLI
 2. Run add Cordova plugin command at CLI:
-  - cordova plugin add https://github.com/nappzter/printer7003v2.git
+  - cordova plugin add https://github.com/nappzter/cordova-plugin-printer7003.git
   
 ## Print Functions
 The following functions are available for printer 7003
 
 ### Create Printer
 <i>Printer printer = new printer();</i>
+
+### Open Printer
+<i>printer.open()</i>
+
+#### usage: 
+printer.printStirng(“hello,the world”);
+
+### Close Printer
+<i>printer.close()</i>
+
+### Open Printer
+<i>printer.open()</i>
+
+#### usage: 
+printer.printStirng(“hello,the world”);
+
+## Printer Interface Functions in printer7003.jar
+
+Open
+Close 
+Init
+queState
+setBold
+setPrintOrientatio
+setInverse
+setUnderline
+setLineSpacing
+setCharacterSpacing
+setFontWidthZoomIn
+setFontHeightZoomIn
+setLeftMargin
+setRightMargin
+setAlignment
+setOnebarWidthZoomIn
+setOneBarHeight
+
+
+
+
