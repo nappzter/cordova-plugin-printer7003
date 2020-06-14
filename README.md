@@ -28,14 +28,11 @@ The following functions are available for printer 7003
 ### Open Printer
 <i>printer.open()</i>
 
-#### usage:
-printer.printString(“Hello World”);
-
 ### Close Printer
 <i>printer.close()</i>
 
-### Open Printer
-<i>printer.open()</i>
+### Print String
+<i>printer.printStirng()</i>
 
 #### usage:
 printer.printStirng(“hello,the world”);
