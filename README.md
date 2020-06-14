@@ -41,24 +41,42 @@ printer.printStirng(“hello,the world”);
 
 ## Printer Interface Functions in printer7003.jar
 
-Open
-Close 
-Init
-queState
-setBold
-setPrintOrientatio
-setInverse
-setUnderline
-setLineSpacing
-setCharacterSpacing
-setFontWidthZoomIn
-setFontHeightZoomIn
-setLeftMargin
-setRightMargin
-setAlignment
-setOnebarWidthZoomIn
-setOneBarHeight
-
-
-
+- Open
+- Close 
+- Init
+- queState
+- setBold
+- setPrintOrientation
+- setInverse
+- setUnderline
+- setLineSpacing
+- setCharacterSpacing
+- setFontWidthZoomIn
+- setFontHeightZoomIn
+- setLeftMargin
+- setRightMargin
+- setAlignment
+- setOnebarWidthZoomIn
+- setOneBarHeight
+- printString
+- printBlankLines
+- printUPCA
+- printUPCE
+- printEAN13
+- printEAN8
+- printCODEA9
+- printITF
+- printCODABAR
+- printCODE93
+- printCODE128
+- printQR
+- printDataMatrix
+- printPicture
+- printPictureByAbsolutePath
+- printPicturebyRelativePath
+- getVersion
+- printSelfInfo
+- printPDF417
+- setFontSize
+- setPrintConcentratoin
 
